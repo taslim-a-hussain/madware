@@ -4,7 +4,6 @@ class App extends React.Component {
 
     render() {
         return (
-<<<<<<< HEAD
             <div className="App">
                 <div className="directory-menu">
 
@@ -44,10 +43,6 @@ class App extends React.Component {
                     </div>
 
                 </div>
-=======
-            <div>
-                <h1>Hello World!</h1>
->>>>>>> 91c67e4388cd64c78e6d9ba567dfe02419850014
             </div>
         );
     }
