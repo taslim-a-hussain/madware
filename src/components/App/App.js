@@ -3,16 +3,16 @@ import {Switch, Route} from 'react-router-dom';
 import './App.scss';
 import Directory from '../Directory/Directory';
 
-const Topics = () => (
+const Hats = () => (
     <div>
-        <h1>Topics</h1>
+        <h1>Hats</h1>
     </div>
 );
 
-const TopicDetail = () => (
+const PageNotFound = (props) => (
     <div>
-        <h1>Topic Details</h1>
-        <p>Here are the topic details.</p>
+        <h1>Page not found 404 error</h1>
+        <button onClick={() => props.history.push('/')}>Home</button>
     </div>
 );
 
@@ -20,8 +20,8 @@ const App = () => (
     <div className="App">
         <Switch>
             <Route exact path="/" component={Directory} />
-            <Route exact path="/topics" component={Topics} />
-            <Route path="/topics/:topicId" component={TopicDetail} />
+            <Route path="/hats" component={Hats} />
+            <Route component={PageNotFound}/>
         </Switch>
     </div>
 );
