@@ -8,3 +8,20 @@ body {
     align-items: center;
     padding: 20px 80px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+    &:hover {
+        color: brown;
+    }
+}
+
+
+.is-active {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
