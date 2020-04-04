@@ -1,5 +1,6 @@
 import React from 'react';
 import SHOP_DATA from './shop.data';
+import './shop.scss';
 import CollectionPreview from '../CollectionPreview/CollectionPreview';
 
 class Shop extends React.Component {
