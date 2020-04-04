@@ -4,6 +4,7 @@ import './App.scss';
 import Header from '../Header/Header';
 import Directory from '../Directory/Directory';
 import Shop from '../Shop/Shop';
+import SigninSignup from '../SigninSignup/SigninSignup';
 import PageNotFound from '../PageNotFound/PageNotFound';
 
 
@@ -13,6 +14,7 @@ const App = () => (
         <Switch>
             <Route exact path="/" component={Directory} />
             <Route path="/shop" component={Shop} />
+            <Route path="/signin" component={SigninSignup} />
             <Route component={PageNotFound}/>
         </Switch>
     </div>
