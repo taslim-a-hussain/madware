@@ -1,2 +1,2 @@
 # madware
-Clothing e-commerce web-app
+Clothing e-commerce web-app for training purpose.
